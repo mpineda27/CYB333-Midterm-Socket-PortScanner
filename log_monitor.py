@@ -89,3 +89,14 @@ ALERT_PASS = config["alert_pass"]
 ALERT_TO = config["alert_to"]
 SMTP_SERVER = config["smtp_server"]
 SMTP_PORT = config["smtp_port"]
+
+\\{
+  "log_file_path": "C:\\Users\\mdpin\\Desktop\\test_auth.log",
+  "pattern": "Failed password|sudo:|authentication failure",
+  "alert_email": "mikadita27@yahoo.com",
+  "alert_pass": "CYB333",
+  "alert_to": "mikadita27@yahoo.com",
+  "smtp_server": "smtp.mail.yahoo.com",
+  "smtp_port": 587
+}
+
