@@ -37,3 +37,51 @@ Michael Pineda - mpineda27
 ## Final Course Project Report
 
 The full project report can be found here: [Revised CourseProject_Pineda.docx](./Revised%20CourseProject_Pineda.docx)
+
+# Automated Log Monitoring and Alerting System
+
+## Project Overview
+This project implements a scalable, robust, and secure log monitoring and alerting tool in Python. It automatically detects security-relevant events (e.g., failed logins, privilege escalations) in system logs using pattern matching and regular expressions, and sends real-time alerts to security teams via multiple channels.
+
+## Objectives
+- Monitor system log files in real time for security-relevant events.
+- Automatically detect and alert on suspicious activity using regex pattern matching.
+- Send notifications via email and/or file-based alerts.
+- Support cross-platform use (Windows and Linux).
+- Enable customization through configuration files.
+
+## How to Run
+1. Clone this repository.
+2. Install dependencies: `pip install -r requirements.txt` (requirements file to be added if needed).
+3. Edit the configuration file (`config.yaml` or `.env`) for alerting channels, log file paths, and regex patterns.
+4. Run `python log_monitor.py` to start monitoring.
+5. Check screenshots for sample outputs and see Jupyter Notebooks for code analysis and documentation.
+
+## Dependencies
+- Python 3.9+
+- `watchdog` (for file system monitoring)
+- `re` (regular expressions, standard Python)
+- `smtplib` (standard Python, for email notifications)
+- `pyyaml` (if using YAML config)
+- Jupyter Notebook (for analysis and demonstration)
+
+## Files in this Repository
+- `log_monitor.py` — main monitoring script.
+- `config.yaml` or `.env` — configuration file.
+- `alerting.py` — notification module (if split).
+- `notebooks/` — Jupyter Notebooks for documentation and analysis.
+- `screenshots/` — Demo screenshots showing alerts and outputs.
+- `Revised CourseProject_Pineda.docx` — Full project write-up.
+
+## AI Tools Used
+ChatGPT and GitHub Copilot were used for brainstorming, code generation, debugging, and best practices review.
+
+## Screenshots
+See the `/screenshots` folder and linked images below for example outputs and running code.
+
+## Final Course Project Report
+The full report can be found here: [Revised CourseProject_Pineda.docx](./Revised%20CourseProject_Pineda.docx)
+
+## Contact
+Michael Pineda - mpineda27
+
