@@ -85,3 +85,42 @@ The full report can be found here: [Revised CourseProject_Pineda.docx](./Revised
 ## Contact
 Michael Pineda - mpineda27
 
+# Automated Log Monitoring and Alerting System
+
+## Project Overview
+This project implements a real-time, automated log monitoring and alerting tool in Python. It is designed to detect security-relevant events (such as repeated failed logins or privilege escalations) by automatically scanning system logs, matching patterns, and sending timely alerts to security teams via file and email notifications. The project showcases security automation, modular programming, robust error handling, and AI-assisted development.
+
+## Objectives
+- Continuously monitor specified system log files for security-relevant events.
+- Use efficient event-driven mechanisms to react to log changes (using `watchdog`).
+- Match patterns using regular expressions for flexible detection.
+- Support multiple alerting channels (file, email).
+- Provide easy configuration for deployment.
+- Follow secure coding best practices.
+
+## How to Run
+1. Clone this repository.
+2. Install dependencies:  
+   `pip install watchdog`
+3. Configure `config.json` (if used) or update `log_monitor.py` with your settings (log path, alerting options, email credentials).
+4. Run `log_monitor.py`.
+5. Review alerts in designated files or your email.
+
+## Dependencies
+- Python 3.9+
+- [watchdog](https://pypi.org/project/watchdog/)
+- `re` (standard library)
+- `smtplib` (standard library)
+
+## Screenshots
+See `/screenshots` for demonstration of running log monitor, sample alerts, and Jupyter data analysis.
+
+## AI Tools Used
+ChatGPT was used for code troubleshooting, design ideas, and error handling. GitHub Copilot helped with autocomplete and code snippets for handling edge cases, notifications, and modular development.
+
+## Author
+Michael Pineda (mpineda27)
+
+## Final Course Project Report
+See [Revised_CourseProject_Pineda.docx](Revised_CourseProject_Pineda.docx)
+
