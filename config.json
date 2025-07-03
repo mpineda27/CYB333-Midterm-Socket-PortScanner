@@ -1,0 +1,9 @@
+{
+  "log_file_path": "/var/log/auth.log",
+  "pattern": "Failed password|sudo:|authentication failure",
+  "alert_email": "your_email@gmail.com",
+  "alert_pass": "your_email_password",
+  "alert_to": "destination_email@gmail.com",
+  "smtp_server": "smtp.gmail.com",
+  "smtp_port": 587
+}
