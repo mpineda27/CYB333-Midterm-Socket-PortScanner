@@ -76,3 +76,16 @@ def monitor_log_file():
 if __name__ == "__main__":
     monitor_log_file()
 
+import json
+
+# Load config at the top of your script
+with open("config.json", "r") as f:
+    config = json.load(f)
+
+LOG_FILE_PATH = config["log_file_path"]
+PATTERN = config["pattern"]
+ALERT_EMAIL = config["alert_email"]
+ALERT_PASS = config["alert_pass"]
+ALERT_TO = config["alert_to"]
+SMTP_SERVER = config["smtp_server"]
+SMTP_PORT = config["smtp_port"]
