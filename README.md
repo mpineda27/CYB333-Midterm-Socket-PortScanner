@@ -34,3 +34,6 @@ GitHub Copilot and ChatGPT were used for code suggestions, documentation, and tr
 ## Contact
 Michael Pineda - mpineda27
 
+## Final Course Project Report
+
+The full project report can be found here: [Revised CourseProject_Pineda.docx](./Revised%20CourseProject_Pineda.docx)
